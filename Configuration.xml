@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Configuration uuid="8bf2a72e-f92c-49fd-b80a-179234be622f">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>e8c0688d-13b4-44cf-b340-3a93e7c00ea9</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>ddf37978-708e-4acb-bafc-73592bd7a0a7</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>c773722a-d9cf-4c52-a1a8-406d5e3a3248</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>2af794f8-c7d2-44d5-94ad-ae7584225959</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>73bf2cc0-f7e4-4ec2-bc71-5535416611ee</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>0232e7c2-7dbc-4b97-b257-2b0c973c9cf5</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>ПанельИнформацииКонтрагента</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель информации контрагента</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NamePrefix>ПИК_</NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
+			<ScriptVariant>Russian</ScriptVariant>
+			<Vendor>mrXoxot</Vendor>
+			<Version>1.1</Version>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<FunctionalOption>Новости_РазрешенаРаботаСНовостями</FunctionalOption>
+			<FunctionalOption>ВедетсяПроизводственнаяДеятельность</FunctionalOption>
+			<DefinedType>Контрагент</DefinedType>
+			<CommonCommand>ДосьеКонтрагента</CommonCommand>
+			<Constant>РазрешенаРаботаСНовостями</Constant>
+			<Constant>ВедетсяПроизводственнаяДеятельность</Constant>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Организации</Catalog>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>СостоянияКонтрагентаБЭД</Enum>
+			<Enum>СостоянияСуществованияКонтрагента</Enum>
+			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
+			<InformationRegister>НаличиеДублейУКонтрагентов</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>
