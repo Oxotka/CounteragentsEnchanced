@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Catalog uuid="7dab4e02-95d0-4a83-9479-43d23693f923">
+	<Catalog uuid="ea0444d2-c5dd-4b60-b71a-33c1aeb54ab6">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>4241e5a4-b472-45fe-abd6-321fddf2a7f6</xr:TypeId>
-				<xr:ValueId>923d7fbf-a8fe-4c2b-bd6f-626953fb8fc4</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Валюты" category="Object">
+				<xr:TypeId>0530e77c-c719-4206-b848-f71486988388</xr:TypeId>
+				<xr:ValueId>82a35fe0-000b-4d20-9bc9-8490d6e0b384</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>9e33000d-53e6-48cc-9fad-258da90cc67a</xr:TypeId>
-				<xr:ValueId>aadbcc61-bbab-4d2e-abd7-5c754b1e0310</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Валюты" category="Ref">
+				<xr:TypeId>8dbcbb22-8724-44de-b295-aaa1e8e13e39</xr:TypeId>
+				<xr:ValueId>0b625777-744b-4b1b-a5ec-f456ac9e74ab</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>7680b4b1-f301-4734-a81a-bcea80e3684a</xr:TypeId>
-				<xr:ValueId>0ccef8ba-1a8c-4153-8b71-2f2929dc1328</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Валюты" category="Selection">
+				<xr:TypeId>6a1c2106-670e-40c5-af64-2fdbe572aea2</xr:TypeId>
+				<xr:ValueId>64dec0c5-dc60-452d-88a5-3c9971a98e8b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>47c10f0a-300e-4f76-ac40-64dedc11009a</xr:TypeId>
-				<xr:ValueId>ef79835b-e335-4edd-85d7-c82118c534b2</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Валюты" category="List">
+				<xr:TypeId>85460b61-b8dd-4b6f-a8e9-10d7bc94771d</xr:TypeId>
+				<xr:ValueId>3e29def0-20a9-45ba-b399-03d9c3487edb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>7e6b61f9-b300-41d9-87f1-4fffc15a26d3</xr:TypeId>
-				<xr:ValueId>e7271561-3ca1-4ff8-995d-94f57051a00d</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Валюты" category="Manager">
+				<xr:TypeId>a0433f2c-6421-46b6-b4f0-15ae91d24ea5</xr:TypeId>
+				<xr:ValueId>8f209b9a-65fb-4c83-8aa1-944ae1d1b0fc</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Контрагенты</Name>
+			<Name>Валюты</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects/>

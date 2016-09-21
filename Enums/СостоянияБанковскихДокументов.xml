@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<CommonCommand uuid="dbbe20d6-b9c0-4a35-8df1-2297142abb32">
+	<Enum uuid="00d24c76-9ae3-4fa2-9616-2ef3db3a8e30">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияБанковскихДокументов" category="Ref">
+				<xr:TypeId>408984d4-b4c9-4b9b-a49a-e5884d39c035</xr:TypeId>
+				<xr:ValueId>43ee8ab0-0f92-4609-b33e-4b1f43ae31ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияБанковскихДокументов" category="Manager">
+				<xr:TypeId>31f6e0ad-bbe5-499a-bfed-162d90d2c9e3</xr:TypeId>
+				<xr:ValueId>c9c6a9e1-2ce3-4fca-82f7-390aff4d95f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияБанковскихДокументов" category="List">
+				<xr:TypeId>ab88e354-d6f3-4d52-91eb-cc51a5f35fae</xr:TypeId>
+				<xr:ValueId>d984f892-bfb1-4558-8865-b4d794533ec8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ДосьеКонтрагента</Name>
+			<Name>СостоянияБанковскихДокументов</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Group>FormCommandBarImportant</Group>
-			<CommandParameterType>
-				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
-			</CommandParameterType>
 		</Properties>
-	</CommonCommand>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

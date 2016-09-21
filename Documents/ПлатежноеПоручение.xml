@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="b1dfbfb4-c6d7-4616-b348-11aa6de1088d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлатежноеПоручение" category="Object">
+				<xr:TypeId>9b091fe2-5ca9-4b7f-a0a2-79785851df10</xr:TypeId>
+				<xr:ValueId>e7fed599-f316-46b2-a4b2-d8e817f839b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлатежноеПоручение" category="Ref">
+				<xr:TypeId>f0735255-ee6d-442c-940d-f93c3f814a24</xr:TypeId>
+				<xr:ValueId>ffb6c269-a3cc-4807-80ed-7b4ff7fa0462</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлатежноеПоручение" category="Selection">
+				<xr:TypeId>7d442a6b-8f6b-4ce1-b1e4-e0a0e0afbd18</xr:TypeId>
+				<xr:ValueId>c43a81f5-9e1c-4483-865d-f2d702ccd5df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлатежноеПоручение" category="List">
+				<xr:TypeId>2cb78919-771f-4b51-8f92-e542088f4357</xr:TypeId>
+				<xr:ValueId>9c8e9ae0-e29b-4001-974f-2622449f3ffa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлатежноеПоручение" category="Manager">
+				<xr:TypeId>7eedd7ad-b7bc-48ad-a413-541f940b5a8b</xr:TypeId>
+				<xr:ValueId>1e0e9833-1baf-4a41-9189-074f244033fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПлатежноеПоручение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2f189ce0-2b44-4bcd-9ae9-518b901cb2ca">
+				<Properties>
+					<Name>ПоказательОснования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3bf0b3c4-60ad-4d3c-ad3d-e3ca06cb5fe0">
+				<Properties>
+					<Name>ПоказательДаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db98453a-ddf6-404d-ae8e-f98afb0988e9">
+				<Properties>
+					<Name>ВидПеречисленияВБюджет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2305da64-5f48-47ec-b8a4-f7f83f7b1259">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d1251cfd-6566-4f88-8ee2-5e4774e1a0b0">
+				<Properties>
+					<Name>ВидПлатежа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="43acae0d-66a6-4b5e-b91c-3e706bb6a4b3">
+				<Properties>
+					<Name>ДоговорКонтрагента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6c4582ff-2c7d-486a-b77e-e06b29dea103">
+				<Properties>
+					<Name>ИННПлательщика</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="29a618d9-27c5-4d32-848c-f26081cd003c">
+				<Properties>
+					<Name>ПеречислениеВБюджет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1abca1c4-893e-4753-928d-cf3721aeb7c6">
+				<Properties>
+					<Name>НазначениеПлатежа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="533a8225-4cf0-4912-b554-33e24fdad8ed">
+				<Properties>
+					<Name>ВидОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9ccbc8b1-1a47-4973-8827-005a8967c025">
+				<Properties>
+					<Name>КПППолучателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="90bca619-7dc8-4f62-9f8a-c1b87a2a0aec">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b04c206e-c808-472c-9d9f-7fd12fe67f03">
+				<Properties>
+					<Name>КодОКАТО</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd78a3f6-c28e-4506-9139-233bccdce0f8">
+				<Properties>
+					<Name>СтатусСоставителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ceb5e6e9-22ee-40a7-a453-9b417ec5a4a8">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6340e043-414d-46a4-b6da-696a8b02439c">
+				<Properties>
+					<Name>ОчередностьПлатежа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="604826ec-d16d-49be-9932-ae0c1491f77f">
+				<Properties>
+					<Name>СуммаДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="388e1158-dc11-4f16-ad0a-760303af494b">
+				<Properties>
+					<Name>ПоказательТипа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b03e88f5-806c-41e7-a72e-f665c0a4af28">
+				<Properties>
+					<Name>СтатьяДвиженияДенежныхСредств</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fbbef265-71ca-47ab-9b5c-14be21366c7d">
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2dd6898a-86c6-4be0-b9ab-031e76dce813">
+				<Properties>
+					<Name>СуммаНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b850d6a1-8352-452a-a7f9-46d79b9eabd9">
+				<Properties>
+					<Name>СчетКонтрагента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a046785f-bcda-48f3-9d44-77c188eb3b8f">
+				<Properties>
+					<Name>СчетОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fbfd3d9a-4de2-4227-a8a5-42d87733ea75">
+				<Properties>
+					<Name>ТекстПлательщика</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1df7aca4-a609-4626-8389-2acd83e60dff">
+				<Properties>
+					<Name>СтавкаНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="50d3a5d3-4477-4120-831b-dce519be7218">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d036168e-61c0-46ee-a0b6-08e844ce3ca5">
+				<Properties>
+					<Name>ТекстПолучателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5707b056-3e82-431c-a043-77ce943e414b">
+				<Properties>
+					<Name>КодБК</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd06ae4d-cad7-4edd-b27c-7ccc8d116409">
+				<Properties>
+					<Name>ПоказательПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aada65ed-924d-4270-bd96-a30813a03587">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fec61efb-4869-4a7b-b1ed-ccb38f7e6ff5">
+				<Properties>
+					<Name>ВалютаДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24fc423b-a81b-4d7d-9808-d1b4a8629fc4">
+				<Properties>
+					<Name>ИННПолучателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="41460dbd-05ae-40a7-ab8c-b8dba8f51026">
+				<Properties>
+					<Name>ПоказательНомера</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c381dda4-0fab-4d3a-9276-d619352689fb">
+				<Properties>
+					<Name>КПППлательщика</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

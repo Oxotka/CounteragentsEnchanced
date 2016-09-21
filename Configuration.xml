@@ -1,66 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Configuration uuid="8bf2a72e-f92c-49fd-b80a-179234be622f">
+	<Configuration uuid="056fccf3-3e7c-4062-8398-b0f09156589a">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>e8c0688d-13b4-44cf-b340-3a93e7c00ea9</xr:ObjectId>
+				<xr:ObjectId>df7210cb-d28d-4d57-8295-ddf4821ceb43</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>ddf37978-708e-4acb-bafc-73592bd7a0a7</xr:ObjectId>
+				<xr:ObjectId>31ab5197-c721-40bc-9ded-ef50e3e838bc</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>c773722a-d9cf-4c52-a1a8-406d5e3a3248</xr:ObjectId>
+				<xr:ObjectId>3e61941a-889c-47ed-a9c1-805a509f5847</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>2af794f8-c7d2-44d5-94ad-ae7584225959</xr:ObjectId>
+				<xr:ObjectId>5353a4bd-9af8-4bf7-b5c6-f056b33b1a22</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>73bf2cc0-f7e4-4ec2-bc71-5535416611ee</xr:ObjectId>
+				<xr:ObjectId>2fd83d15-110d-42c6-99f5-07a05e527391</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>0232e7c2-7dbc-4b97-b257-2b0c973c9cf5</xr:ObjectId>
+				<xr:ObjectId>c1af548c-adcf-4a9a-82f8-b2aaa4f4c45c</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>ПанельИнформацииКонтрагента</Name>
+			<Name>ЗадолженностьКонтрагентовВПлатежках</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Панель информации контрагента</v8:content>
+					<v8:content>Задолженность контрагентов в платежках</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<NamePrefix>ПИК_</NamePrefix>
+			<NamePrefix>Задолженность_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
+			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.1</Version>
+			<Version>1.0</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
-			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
-			<FunctionalOption>Новости_РазрешенаРаботаСНовостями</FunctionalOption>
-			<FunctionalOption>ВедетсяПроизводственнаяДеятельность</FunctionalOption>
-			<DefinedType>Контрагент</DefinedType>
-			<CommonCommand>ДосьеКонтрагента</CommonCommand>
-			<Constant>РазрешенаРаботаСНовостями</Constant>
-			<Constant>ВедетсяПроизводственнаяДеятельность</Constant>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>Организации</Catalog>
-			<Enum>ЮридическоеФизическоеЛицо</Enum>
-			<Enum>СостоянияКонтрагентаБЭД</Enum>
-			<Enum>СостоянияСуществованияКонтрагента</Enum>
-			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
-			<InformationRegister>НаличиеДублейУКонтрагентов</InformationRegister>
-			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>БанковскиеСчета</Catalog>
+			<Document>ПлатежноеПоручение</Document>
+			<Enum>ВидыПеречисленийВБюджет</Enum>
+			<Enum>СостоянияБанковскихДокументов</Enum>
+			<Enum>СтавкиНДС</Enum>
+			<Enum>ВидыОперацийСписаниеДенежныхСредств</Enum>
+			<InformationRegister>СостоянияБанковскихДокументов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
