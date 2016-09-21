@@ -509,7 +509,7 @@
 					</Events>
 					<ChildItems>
 						<PictureField name="Оплачено" id="36">
-							<DataPath>1/24</DataPath>
+							<DataPath>Список.Организация</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<TitleLocation>None</TitleLocation>
 							<ToolTip>
@@ -1657,7 +1657,7 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<PictureField name="Оплачено" id="36">
-						<DataPath>1/24</DataPath>
+						<DataPath>Список.Организация</DataPath>
 						<ReadOnly>true</ReadOnly>
 						<TitleLocation>None</TitleLocation>
 						<ToolTip>
