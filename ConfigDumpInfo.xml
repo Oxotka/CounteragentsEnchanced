@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="b616fbb4-6c0f-427c-9b04-50a42a59acfe" configVersion="9203a6d656bede4c45c426aad4e563ccbcb1c951">
+			<Metadata name="Catalog.Контрагенты.Attribute.КППВведенКорректно" id="0414024a-3eab-432e-b72c-6010972f1325"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ГоловнойКонтрагент" id="1d3ca997-d6bd-4263-95a3-2a174df123d1"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ЮридическоеФизическоеЛицо" id="428f6848-aaf9-4090-a4b0-1a9207bf0a8d"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ОбособленноеПодразделение" id="724401fc-d9b3-4f0a-a736-107f4699b4a0"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="7eba333d-7d49-4ea0-88b4-12fbf38ffb1c"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Комментарий" id="b4895fa4-eefa-48c7-be38-477e869da2c2"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ИННВведенКорректно" id="c607153b-e39d-4ace-a083-3953159c40bf"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="d1638b09-ba62-4c5a-ad49-40012fbd017d"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеПолное" id="fcce6b36-4268-440c-af3c-1eed246a52bb"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка" id="61b9d4ab-75a2-4208-b984-293852582dce" configVersion="1d06855a1f138e281f6d6a0b1d99a14cae76932a"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="61b9d4ab-75a2-4208-b984-293852582dce.0" configVersion="e738ba75874f5a83bb02d8fa735adba20a7b7ff8"/>
+		<Metadata name="Catalog.Организации" id="c7af99ef-d315-4a3e-95fc-f0ec57d42f59" configVersion="baed0aead9af82ef7a7ac5e81fad8260d287f06b"/>
+		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="3db1be5d-8e98-494a-84f1-9e97913e290f" configVersion="cb349034ae9a88ee7ba9b412d68b51ca3648cf6f"/>
+		<Metadata name="Configuration.ПанельИнформацииКонтрагента" id="8bf2a72e-f92c-49fd-b80a-179234be622f" configVersion="3651fb48d3a2f9d49d406ada0d0587e5ddadb3c4"/>
+		<Metadata name="Constant.ВедетсяПроизводственнаяДеятельность" id="fdc057d7-732e-4a49-8f87-c3a5b8f83ec2" configVersion="5acbafd2eb06aa590ef3fd803c192efe0e172814"/>
+		<Metadata name="Constant.РазрешенаРаботаСНовостями" id="baa31f64-ba5b-4158-96f9-2d671f523686" configVersion="43bdb86b3c4e4542b6ed54f86ce5c0b749e575eb"/>
+		<Metadata name="DefinedType.КонтрагентБИП" id="f49c8a10-a747-4e05-b953-6156309202e6" configVersion="69e8fce3313bb6e2d7f58669660995134fd4477f"/>
+		<Metadata name="DefinedType.КонтрагентБЭД" id="d49e4c64-1906-4e3e-9500-ed32a1c9ecf6" configVersion="d31bb20a012f96b14d9031ba12509e9a6706a798"/>
+		<Metadata name="Document.СправкиСПАРКРиски" id="170354ed-074a-44d3-8638-c69d1e20cfaa" configVersion="e6d4d8fb2ca069b491670c5309b18606dfac3cc9">
+			<Metadata name="Document.СправкиСПАРКРиски.Command.СправкиСПАРКРиски" id="e6ea1e1f-9c27-496d-be1c-79cd63af1f08"/>
+		</Metadata>
+		<Metadata name="Enum.СостоянияКонтрагентаБЭД" id="f26c3eb4-d48c-4bba-b3e5-901e238e0450" configVersion="761405631138df4fd6009d0237b4b24a141baa41">
+			<Metadata name="Enum.СостоянияКонтрагентаБЭД.EnumValue.Подключен" id="e6d54eb4-b149-4d6f-bb64-b28396793eb9"/>
+		</Metadata>
+		<Metadata name="Enum.СостоянияСуществованияКонтрагента" id="a6845eca-99c0-44ba-bf50-d474a32fc79f" configVersion="0c02b3942828598e5de15c7fd5e3912ffcc6eaf0"/>
+		<Metadata name="Enum.ЮридическоеФизическоеЛицо" id="e7d6e6e1-5d8a-48a3-a3dd-26a3a8ebffa6" configVersion="77f288737c2fda437033c415d711029c57912e95">
+			<Metadata name="Enum.ЮридическоеФизическоеЛицо.EnumValue.ФизическоеЛицо" id="a416466a-6774-43ba-96cc-185f6b3a6cfa"/>
+		</Metadata>
+		<Metadata name="FunctionalOption.ВедетсяПроизводственнаяДеятельность" id="0b2176e0-50e2-4b8a-91a8-5e14874b95ea" configVersion="84bc9123802f2f51bf3eb0c878cecd813754772f"/>
+		<Metadata name="FunctionalOption.РазрешенаРаботаСНовостями" id="f5539127-2bbc-4687-846f-2f686968a9c4" configVersion="76ae7e4fa86fd06e779a403bb583b601194f9e47"/>
+		<Metadata name="InformationRegister.НаличиеДублейУКонтрагентов" id="21bb63c3-2891-47cf-8c00-2419da5d5b38" configVersion="df2f87f8ae9570baba683f7a8e8b22d1ae0b7c5a">
+			<Metadata name="InformationRegister.НаличиеДублейУКонтрагентов.Dimension.КПП" id="5986b755-6bbf-4bab-bc90-348bf21b90ee"/>
+			<Metadata name="InformationRegister.НаличиеДублейУКонтрагентов.Dimension.ИНН" id="a94ec044-acd4-4228-bc6f-3e4b82f49af0"/>
+			<Metadata name="InformationRegister.НаличиеДублейУКонтрагентов.Dimension.Контрагент" id="e9c27068-bd62-45bf-8c0b-ab657e99f31d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СостоянияКонтрагентов" id="66b5464a-5249-4112-89c4-218d3691b974" configVersion="33bf65a78e9b668c06c7cc43223928d36efc4fb4">
+			<Metadata name="InformationRegister.СостоянияКонтрагентов.Resource.Состояние" id="4625730c-cfbd-4242-984d-d233137ed098"/>
+			<Metadata name="InformationRegister.СостоянияКонтрагентов.Dimension.Контрагент" id="b77285a6-b591-49c9-9a1d-32520fb1013c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СостоянияКонтрагентовБЭД" id="edf87f73-5348-45a8-a912-538190937828" configVersion="1968b0f64031c5a7fb0a47fd31480bc77ca8cd2a">
+			<Metadata name="InformationRegister.СостоянияКонтрагентовБЭД.Dimension.Контрагент" id="7db8bc27-94f1-4bb7-a28d-076fd6d6c696"/>
+			<Metadata name="InformationRegister.СостоянияКонтрагентовБЭД.Resource.Состояние" id="e1f9b515-d599-42fa-90ca-ebebfe82126b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="acf57139-4c9a-4656-a02f-d8a6b8483f7d" configVersion="b93dd242a2b09a49ffbf40904f7d0c36066d989e"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

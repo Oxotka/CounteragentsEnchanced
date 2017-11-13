@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Configuration uuid="8bf2a72e-f92c-49fd-b80a-179234be622f">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -36,30 +36,31 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>ПИК_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.1</Version>
+			<Version>1.2</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
-			<FunctionalOption>Новости_РазрешенаРаботаСНовостями</FunctionalOption>
 			<FunctionalOption>ВедетсяПроизводственнаяДеятельность</FunctionalOption>
-			<DefinedType>Контрагент</DefinedType>
-			<CommonCommand>ДосьеКонтрагента</CommonCommand>
+			<FunctionalOption>РазрешенаРаботаСНовостями</FunctionalOption>
+			<DefinedType>КонтрагентБИП</DefinedType>
+			<DefinedType>КонтрагентБЭД</DefinedType>
 			<Constant>РазрешенаРаботаСНовостями</Constant>
 			<Constant>ВедетсяПроизводственнаяДеятельность</Constant>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Организации</Catalog>
+			<Document>СправкиСПАРКРиски</Document>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>СостоянияКонтрагентаБЭД</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
-			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 			<InformationRegister>НаличиеДублейУКонтрагентов</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
 		</ChildObjects>
 	</Configuration>

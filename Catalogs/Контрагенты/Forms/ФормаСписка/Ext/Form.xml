@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -142,8 +142,8 @@
 								<ChildItems>
 									<Button name="ФормаОбщаяКомандаДосьеКонтрагента" id="83">
 										<Type>CommandBarButton</Type>
-										<CommandName>CommonCommand.ДосьеКонтрагента</CommandName>
-										<DataPath>Items.Список.CurrentData.Ref</DataPath>
+										<CommandName>0:dbbe20d6-b9c0-4a35-8df1-2297142abb32</CommandName>
+										<DataPath>~Items.Список.CurrentData.Ref</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -170,12 +170,44 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<Popup name="Подменю1СПАРКРиски" id="197">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>1СПАРК Риски</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="Подменю1СПАРКРискиРасширеннаяПодсказка" id="203"/>
+				<ChildItems>
+					<Button name="ФормаДокументСправкиСПАРКРискиСправкиСПРАКРиски" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Document.СправкиСПАРКРиски.Command.СправкиСПАРКРиски</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Справки</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаДокументСправкиСПАРКРискиСправкиСПРАКРискиРасширеннаяПодсказка" id="66"/>
+					</Button>
+					<Button name="ФормаИндексыСПАРК" id="199">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ИндексыСПАРК</CommandName>
+						<ExtendedTooltip name="ФормаИндексыСПАРКРасширеннаяПодсказка" id="204"/>
+					</Button>
+					<Button name="ФормаСобытияМониторингаСПАРК" id="201">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СобытияМониторингаСПАРК</CommandName>
+						<ExtendedTooltip name="ФормаСобытияМониторингаСПАРКРасширеннаяПодсказка" id="205"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnLoadDataFromSettingsAtServer">ПИК_ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
-		<Event name="OnCreateAtServer">ПИК_ПриСозданииНаСервере</Event>
-		<Event name="URLProcessing">ПИК_ОбработкаНавигационнойСсылки</Event>
+		<Event name="OnLoadDataFromSettingsAtServer" callType="Before">ПИК_ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer" callType="Before">ПИК_ПриСозданииНаСервере</Event>
+		<Event name="URLProcessing" callType="Before">ПИК_ОбработкаНавигационнойСсылки</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаБыстрыеОтборы" id="44">
@@ -269,11 +301,11 @@
 						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="57"/>
 					</SearchControlAddition>
 					<Events>
-						<Event name="OnActivateRow">ПИК_СписокПриАктивизацииСтроки</Event>
+						<Event name="OnActivateRow" callType="Before">ПИК_СписокПриАктивизацииСтроки</Event>
 					</Events>
 					<ChildItems>
 						<LabelField name="Наименование" id="10">
-							<DataPath>Список.Description</DataPath>
+							<DataPath>Список.Наименование</DataPath>
 							<DefaultItem>true</DefaultItem>
 							<Width>35</Width>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
@@ -340,7 +372,7 @@
 							<ExtendedTooltip name="ВидExtendedTooltip" id="38"/>
 						</LabelField>
 						<LabelField name="Код" id="12">
-							<DataPath>Список.Code</DataPath>
+							<DataPath>Список.Код</DataPath>
 							<UserVisible>
 								<xr:Common>false</xr:Common>
 							</UserVisible>
@@ -348,7 +380,7 @@
 							<ExtendedTooltip name="КодExtendedTooltip" id="36"/>
 						</LabelField>
 						<LabelField name="Ссылка" id="20">
-							<DataPath>Список.Ref</DataPath>
+							<DataPath>Список.Ссылка</DataPath>
 							<UserVisible>
 								<xr:Common>false</xr:Common>
 							</UserVisible>
@@ -450,7 +482,7 @@
 									<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="173"/>
 									<ExtendedTooltip name="ДекорацияДокументыРасширеннаяПодсказка" id="174"/>
 									<Events>
-										<Event name="Click">ПИК_ДекорацияДокументыНажатие</Event>
+										<Event name="Click" callType="Before">ПИК_ДекорацияДокументыНажатие</Event>
 									</Events>
 								</LabelDecoration>
 							</ChildItems>
@@ -557,7 +589,7 @@
 							<ContextMenu name="ДекорацияСвернутьКонтекстноеМеню" id="195"/>
 							<ExtendedTooltip name="ДекорацияСвернутьРасширеннаяПодсказка" id="196"/>
 							<Events>
-								<Event name="Click">ПИК_ДекорацияСвернутьНажатие</Event>
+								<Event name="Click" callType="Before">ПИК_ДекорацияСвернутьНажатие</Event>
 							</Events>
 						</LabelDecoration>
 					</ChildItems>
@@ -591,7 +623,7 @@
 							<ContextMenu name="ДекорацияРазвернутьКонтекстноеМеню" id="133"/>
 							<ExtendedTooltip name="ДекорацияРазвернутьРасширеннаяПодсказка" id="134"/>
 							<Events>
-								<Event name="Click">ПИК_ДекорацияРазвернутьНажатие</Event>
+								<Event name="Click" callType="Before">ПИК_ДекорацияРазвернутьНажатие</Event>
 							</Events>
 						</PictureDecoration>
 					</ChildItems>
@@ -606,21 +638,18 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.ПроверкаКонтрагентовСостояние</Field>
-				<Field>1/65</Field>
-				<Field>1/64</Field>
-				<Field>1/62</Field>
-				<Field>1/55</Field>
-				<Field>1/52</Field>
-				<Field>1/51</Field>
+				<Field>Список.ЭтоГруппа</Field>
+				<Field>Список.Ссылка</Field>
+				<Field>~Список.Состояние</Field>
+				<Field>~Список.КонтрагентНеСуществует</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	СправочникКонтрагенты.Наименование,
-	СправочникКонтрагенты.Код,
-	СправочникКонтрагенты.НаименованиеПолное,
+	СправочникКонтрагенты.Наименование КАК Наименование,
+	СправочникКонтрагенты.Код КАК Код,
+	СправочникКонтрагенты.НаименованиеПолное КАК НаименованиеПолное,
 	СправочникКонтрагенты.ИНН КАК ЧистыйИНН,
 	СправочникКонтрагенты.КПП КАК ЧистыйКПП,
 	ВЫБОР
@@ -628,19 +657,19 @@
 			ТОГДА &amp;ПредставлениеОбособленногоПодразделения
 		ИНАЧЕ ПРЕДСТАВЛЕНИЕ(СправочникКонтрагенты.ЮридическоеФизическоеЛицо)
 	КОНЕЦ КАК Вид,
-	СправочникКонтрагенты.ГоловнойКонтрагент,
-	СправочникКонтрагенты.Комментарий,
-	СправочникКонтрагенты.Ссылка,
-	СправочникКонтрагенты.ЭтоГруппа,
+	СправочникКонтрагенты.ГоловнойКонтрагент КАК ГоловнойКонтрагент,
+	СправочникКонтрагенты.Комментарий КАК Комментарий,
+	СправочникКонтрагенты.Ссылка КАК Ссылка,
+	СправочникКонтрагенты.ЭтоГруппа КАК ЭтоГруппа,
 	СправочникКонтрагенты.ИНН КАК ИНН,
 	СправочникКонтрагенты.КПП КАК КПП,
 	ВЫБОР
-		КОГДА НаличиеДублейУКонтрагентов.Контрагент ЕСТЬ NULL 
+		КОГДА НаличиеДублейУКонтрагентов.Контрагент ЕСТЬ NULL
 			ТОГДА ЛОЖЬ
 		ИНАЧЕ ИСТИНА
 	КОНЕЦ КАК ЕстьДубли,
-	СправочникКонтрагенты.ИННВведенКорректно,
-	СправочникКонтрагенты.КППВведенКорректно,
+	СправочникКонтрагенты.ИННВведенКорректно КАК ИННВведенКорректно,
+	СправочникКонтрагенты.КППВведенКорректно КАК КППВведенКорректно,
 	ВЫБОР
 		КОГДА (СправочникКонтрагенты.ИННВведенКорректно
 					И СправочникКонтрагенты.КППВведенКорректно
@@ -658,15 +687,15 @@
 	КОНЕЦ КАК ЭДО
 ИЗ
 	Справочник.Контрагенты КАК СправочникКонтрагенты
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеДублейУКонтрагентов КАК НаличиеДублейУКонтрагентов
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеДублейУКонтрагентов КАК НаличиеДублейУКонтрагентов
 		ПО СправочникКонтрагенты.Ссылка = НаличиеДублейУКонтрагентов.Контрагент
 			И СправочникКонтрагенты.ИНН = НаличиеДублейУКонтрагентов.ИНН
-			И СправочникКонтрагенты.КПП = НаличиеДублейУКонтрагентов.КПП
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентов КАК СостоянияКонтрагентов
+			И СправочникКонтрагенты.КПП = НаличиеДублейУКонтрагентов.КПП}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентов КАК СостоянияКонтрагентов
 		ПО СправочникКонтрагенты.Ссылка = СостоянияКонтрагентов.Контрагент
-			И (&amp;ИспользованиеПроверкиВозможно)
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентовБЭД КАК СостоянияКонтрагентовБЭД
-		ПО СостоянияКонтрагентовБЭД.Контрагент = СправочникКонтрагенты.Ссылка</QueryText>
+			И (&amp;ИспользованиеПроверкиВозможно)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентовБЭД КАК СостоянияКонтрагентовБЭД
+		ПО СправочникКонтрагенты.Ссылка = СостоянияКонтрагентовБЭД.Контрагент}</QueryText>
 				<MainTable>Catalog.Контрагенты</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -723,6 +752,26 @@
 				<Field>СвернутьПанель</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="ОтображатьСтатусыДокументов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отображать статусы документов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ИзменитьВыделенные" id="2">
@@ -756,7 +805,7 @@
 				<xr:Common>false</xr:Common>
 			</Use>
 			<FunctionalOptions>
-				<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+				<Item>FunctionalOption.РазрешенаРаботаСНовостями</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="СоздатьСчетПокупателю" id="3">
@@ -772,7 +821,7 @@
 					<v8:content>Создать счет покупателю</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИК_СоздатьСчетПокупателю</Action>
+			<Action callType="Before">ПИК_СоздатьСчетПокупателю</Action>
 		</Command>
 		<Command name="СоздатьРеализацию" id="4">
 			<Title>
@@ -787,7 +836,7 @@
 					<v8:content>Создать реализацию</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИК_СоздатьРеализацию</Action>
+			<Action callType="Before">ПИК_СоздатьРеализацию</Action>
 		</Command>
 		<Command name="СоздатьАктОказанияУслуг" id="5">
 			<Title>
@@ -802,7 +851,7 @@
 					<v8:content>Создать акт оказания услуг</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИК_СоздатьАктОказанияУслуг</Action>
+			<Action callType="Before">ПИК_СоздатьАктОказанияУслуг</Action>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ВедетсяПроизводственнаяДеятельность</Item>
 			</FunctionalOptions>
@@ -820,7 +869,7 @@
 					<v8:content>Создать поступление товаров услуг</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИК_СоздатьПоступлениеТоваровУслуг</Action>
+			<Action callType="Before">ПИК_СоздатьПоступлениеТоваровУслуг</Action>
 		</Command>
 		<Command name="СоздатьАктСверкиВзаиморасчетов" id="7">
 			<Title>
@@ -835,13 +884,73 @@
 					<v8:content>Создать акт сверки взаиморасчетов</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИК_СоздатьАктСверкиВзаиморасчетов</Action>
+			<Action callType="Before">ПИК_СоздатьАктСверкиВзаиморасчетов</Action>
+		</Command>
+		<Command name="ИндексыСПАРК" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индексы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индексы СПАРК</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="СобытияМониторингаСПАРК" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>События мониторинга</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>События мониторинга СПАРК</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
-	<BaseForm version="2.1">
+	<BaseForm version="2.4">
 		<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
+				<Popup name="Подменю1СПАРКРиски" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1СПАРК Риски</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю1СПАРКРискиРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<Button name="ФормаДокументСправкиСПАРКРискиСправкиСПРАКРиски" id="65">
+							<Type>CommandBarButton</Type>
+							<CommandName>Document.СправкиСПАРКРиски.Command.СправкиСПАРКРиски</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Справки</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ФормаДокументСправкиСПАРКРискиСправкиСПРАКРискиРасширеннаяПодсказка" id="66"/>
+						</Button>
+						<Button name="ФормаИндексыСПАРК" id="67">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ИндексыСПАРК</CommandName>
+							<ExtendedTooltip name="ФормаИндексыСПАРКРасширеннаяПодсказка" id="68"/>
+						</Button>
+						<Button name="ФормаСобытияМониторингаСПАРК" id="69">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.СобытияМониторингаСПАРК</CommandName>
+							<ExtendedTooltip name="ФормаСобытияМониторингаСПАРКРасширеннаяПодсказка" id="70"/>
+						</Button>
+					</ChildItems>
+				</Popup>
 				<Button name="ФормаПоказатьКонтекстныеНовости" id="58">
 					<Type>CommandBarButton</Type>
 					<OnlyInAllActions>false</OnlyInAllActions>
@@ -925,7 +1034,7 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<LabelField name="Наименование" id="10">
-						<DataPath>Список.Description</DataPath>
+						<DataPath>Список.Наименование</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<Width>35</Width>
 						<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
@@ -992,7 +1101,7 @@
 						<ExtendedTooltip name="ВидExtendedTooltip" id="38"/>
 					</LabelField>
 					<LabelField name="Код" id="12">
-						<DataPath>Список.Code</DataPath>
+						<DataPath>Список.Код</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1000,7 +1109,7 @@
 						<ExtendedTooltip name="КодExtendedTooltip" id="36"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="20">
-						<DataPath>Список.Ref</DataPath>
+						<DataPath>Список.Ссылка</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1017,21 +1126,22 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
+					<Field>Список.ЭтоГруппа</Field>
+					<Field>Список.Ссылка</Field>
 					<Field>Список.КППВведенКорректно</Field>
 					<Field>Список.ИННВведенКорректно</Field>
 					<Field>Список.ЕстьДубли</Field>
 					<Field>Список.Вид</Field>
-					<Field>Список.Ref</Field>
-					<Field>Список.IsFolder</Field>
-					<Field>1/51</Field>
+					<Field>~Список.Ref</Field>
+					<Field>~Список.IsFolder</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
 					<DynamicDataRead>true</DynamicDataRead>
 					<QueryText>ВЫБРАТЬ
-	СправочникКонтрагенты.Наименование,
-	СправочникКонтрагенты.Код,
-	СправочникКонтрагенты.НаименованиеПолное,
+	СправочникКонтрагенты.Наименование КАК Наименование,
+	СправочникКонтрагенты.Код КАК Код,
+	СправочникКонтрагенты.НаименованиеПолное КАК НаименованиеПолное,
 	СправочникКонтрагенты.ИНН КАК ЧистыйИНН,
 	СправочникКонтрагенты.КПП КАК ЧистыйКПП,
 	ВЫБОР
@@ -1039,19 +1149,19 @@
 			ТОГДА &amp;ПредставлениеОбособленногоПодразделения
 		ИНАЧЕ ПРЕДСТАВЛЕНИЕ(СправочникКонтрагенты.ЮридическоеФизическоеЛицо)
 	КОНЕЦ КАК Вид,
-	СправочникКонтрагенты.ГоловнойКонтрагент,
-	СправочникКонтрагенты.Комментарий,
-	СправочникКонтрагенты.Ссылка,
-	СправочникКонтрагенты.ЭтоГруппа,
+	СправочникКонтрагенты.ГоловнойКонтрагент КАК ГоловнойКонтрагент,
+	СправочникКонтрагенты.Комментарий КАК Комментарий,
+	СправочникКонтрагенты.Ссылка КАК Ссылка,
+	СправочникКонтрагенты.ЭтоГруппа КАК ЭтоГруппа,
 	СправочникКонтрагенты.ИНН КАК ИНН,
 	СправочникКонтрагенты.КПП КАК КПП,
 	ВЫБОР
-		КОГДА НаличиеДублейУКонтрагентов.Контрагент ЕСТЬ NULL 
+		КОГДА НаличиеДублейУКонтрагентов.Контрагент ЕСТЬ NULL
 			ТОГДА ЛОЖЬ
 		ИНАЧЕ ИСТИНА
 	КОНЕЦ КАК ЕстьДубли,
-	СправочникКонтрагенты.ИННВведенКорректно,
-	СправочникКонтрагенты.КППВведенКорректно,
+	СправочникКонтрагенты.ИННВведенКорректно КАК ИННВведенКорректно,
+	СправочникКонтрагенты.КППВведенКорректно КАК КППВведенКорректно,
 	ВЫБОР
 		КОГДА (СправочникКонтрагенты.ИННВведенКорректно
 					И СправочникКонтрагенты.КППВведенКорректно
@@ -1069,15 +1179,15 @@
 	КОНЕЦ КАК ЭДО
 ИЗ
 	Справочник.Контрагенты КАК СправочникКонтрагенты
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеДублейУКонтрагентов КАК НаличиеДублейУКонтрагентов
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеДублейУКонтрагентов КАК НаличиеДублейУКонтрагентов
 		ПО СправочникКонтрагенты.Ссылка = НаличиеДублейУКонтрагентов.Контрагент
 			И СправочникКонтрагенты.ИНН = НаличиеДублейУКонтрагентов.ИНН
-			И СправочникКонтрагенты.КПП = НаличиеДублейУКонтрагентов.КПП
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентов КАК СостоянияКонтрагентов
+			И СправочникКонтрагенты.КПП = НаличиеДублейУКонтрагентов.КПП}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентов КАК СостоянияКонтрагентов
 		ПО СправочникКонтрагенты.Ссылка = СостоянияКонтрагентов.Контрагент
-			И (&amp;ИспользованиеПроверкиВозможно)
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентовБЭД КАК СостоянияКонтрагентовБЭД
-		ПО СостоянияКонтрагентовБЭД.Контрагент = СправочникКонтрагенты.Ссылка</QueryText>
+			И (&amp;ИспользованиеПроверкиВозможно)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияКонтрагентовБЭД КАК СостоянияКонтрагентовБЭД
+		ПО СправочникКонтрагенты.Ссылка = СостоянияКонтрагентовБЭД.Контрагент}</QueryText>
 					<MainTable>Catalog.Контрагенты</MainTable>
 					<ListSettings>
 						<dcsset:filter>
@@ -1105,6 +1215,26 @@
 					</v8:item>
 				</Title>
 				<Type/>
+			</Attribute>
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Параметры подключаемых команд</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="ОтображатьСтатусыДокументов" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отображать статусы документов</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
 			</Attribute>
 		</Attributes>
 		<Commands>
@@ -1139,8 +1269,36 @@
 					<xr:Common>false</xr:Common>
 				</Use>
 				<FunctionalOptions>
-					<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+					<Item>FunctionalOption.РазрешенаРаботаСНовостями</Item>
 				</FunctionalOptions>
+			</Command>
+			<Command name="ИндексыСПАРК" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Индексы</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Индексы СПАРК</v8:content>
+					</v8:item>
+				</ToolTip>
+			</Command>
+			<Command name="СобытияМониторингаСПАРК" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>События мониторинга</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>События мониторинга СПАРК</v8:content>
+					</v8:item>
+				</ToolTip>
 			</Command>
 		</Commands>
 	</BaseForm>
